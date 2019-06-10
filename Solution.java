@@ -12,8 +12,8 @@ public class Solution {
 			 * on turn to move, wins.
 			 * 
 			 * Therefore, if the initial number of stones modulo 7 is in this range, 
-       * the first player can always make moves that will eventually lead to 
-       * remaining stones in the range from 2 to 6, with the first being on turn to move.
+      			 * the first player can always make moves that will eventually lead to 
+      			 * remaining stones in the range from 2 to 6, with the first being on turn to move.
 			 */
 			System.out.println((numberOfStones % 7 > 1) ? "First" : "Second");
 		}
